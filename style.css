@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+}
+
+#cabeçalho {
+    padding: 6px;
+    padding-left: 25px;
+    background-color: rgba(245, 245, 245, 0.86); 
+    font: normal 28px Jacques Francois;
+}
+
+#logo {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: rgb(223, 167, 167);
+    color: #B45555;
+    border-radius: 20px;
+}
+
+#nome {
+    display: inline;
+    padding: 15px;
+    color:#B45555;
+}
+
+#quadroPesq {
+    
+    background-color: #DA9696;
+}
+
+#quadroDestaques {
+    background-color: bisque;
+}
+
+#quadroImg {
+    background-color: #D9D9D9;
+}
