@@ -30,9 +30,7 @@ body {
 }
 
 #quadroPesq {
-    margin: 40px 46px;
-    margin-top: 90px;
-    margin-bottom: 100px;
+    margin: 90px 46px 120px 46px;
     width: 30%;
     padding: 40px;
     float: left;
@@ -53,7 +51,6 @@ body {
 #pesq {
     margin: auto;
     text-align: center;
-    
 }
 
 #pesq > input {
@@ -120,16 +117,75 @@ body {
 }
 
 #quadroImg {
-    padding: 15%;
-    height: 40px;
-    background-color: #D9D9D9;
+    padding: 40px;
+    background-color: rgb(252, 241, 224);
     clear: left;
     margin: 50px 35px;
+    text-align: center;
+    border-radius: 20px;
 }
 
 .qImg {
-    background-color: rgb(235, 235, 155);
     display: inline-block;
-    height: 20px;
-    width: 30px;
+    height: 220px;
+    width: 330px;
+    border-radius: 18px;
+    box-shadow: 7px 5px 25px rgb(192, 166, 127);
+}
+
+#Img1 {
+    background-image: url('https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 30px;
+}
+
+#Img2 {
+    background-image: url('https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Img3 {
+    background-image: url('https://cdn.pixabay.com/photo/2015/04/10/17/03/pots-716579_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    margin-left: 30px;
+}
+
+#Img4 {
+    background-image: url('https://cdn.pixabay.com/photo/2020/11/25/09/30/girls-5775077_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#Img5 {
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    margin-top: 30px;
+}
+
+/* Página 2 */
+
+.quadroPesq2 { 
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pesq2 {
+    border: solid .4px rgb(224, 219, 219);
+    width: 400px;
+    padding: 9px;
+    padding-left: 14px;
+    font-size: 10pt;
+    border-radius: 20px 0 0 20px;
+}
+
+.pesq2:focus {
+    outline: none;
+    box-shadow: 6px 5px 25px rgb(193, 192, 192);
+    transition: box-shadow 0.6s;
 }
