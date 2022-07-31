@@ -15,6 +15,12 @@ body {
     background-color: rgb(223, 167, 167);
     color: #B45555;
     border-radius: 20px;
+    box-shadow: 7px 5px 25px rgb(193, 192, 192);
+}
+
+#logo:hover {
+    background-color: #B45555;
+    color: rgb(255, 255, 255);
 }
 
 #nome {
@@ -91,14 +97,30 @@ body {
     display: inline-block;
     height: 270px;
     width: 190px;
-    background-image: url('https://lunetas.com.br/wp-content/uploads/2022/04/animes-e-criancas-portal-lunetas.jpg.webp');
-    background-size: 253%;
-    background-repeat: no-repeat;
+    border: solid 3px #B45555;
+    border-radius: 12px;
 }
 
 #q1 {
+    background-image: url('https://lunetas.com.br/wp-content/uploads/2022/04/animes-e-criancas-portal-lunetas.jpg.webp');
+    background-size: 253%;
+    background-repeat: no-repeat;
 
 }
+
+#q2 {
+    background-image: url('https://ae01.alicdn.com/kf/HTB1tS8_WkvoK1RjSZFDq6xY3pXav/SA-1027-3d-Rosa-Tijolo-Papel-De-Parede-Adesivos-Doce-Meninas-Quarto-Quarto-Wallpapers-Rolo-Autoadesivo.jpg_Q90.jpg_.webp');
+    background-size: 280px;
+    background-repeat: no-repeat;
+    
+}
+
+#q3 {
+    background-image: url('https://images.unsplash.com/photo-1581520901820-0d655a895596?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: 195px;
+}
+
 
 #quadroImg {
     padding: 15%;
